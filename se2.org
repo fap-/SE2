@@ -1,0 +1,95 @@
+#+STARTUP: showeverything
+
+* Relevante Themen
+
+** Qualitätssicherung
+*** Aufgaben eines Qualitätsbeauftragten
+*** Kategorien der Qualitätssicherungsmaßnahmen
+*** Reviewsitzung
+*** Continuous Integration
+*** Tests
+**** Glas-Box-Tests
+     - PoC und PoO innen
+       Direkter Eingriff in Code
+       Testdaten aus Struktur
+       Im Prinzip: alle Stufen
+       •
+       Aber: zu viele TF außer bei Unit
+     - Anweisungsüberdeckung (Kontrollflussgraph)
+     - Zweigüberdeckung
+     - Bedingungsüberdeckung
+     - Pfadüberdeckung(u.A. Berücksichtigung aller möglichen Anzahlen von Schleifendurchläufen)
+**** Black-Box-Tests
+     - PoC und PoO außen
+       Keine Info über Inneres
+       Testdaten aus Requirements
+       Alle Teststufen
+     - Testfall - Auswahlkriterien
+       - Funktionsüberdeckung
+       - Eingabeüberdeckung
+       - Ausgabeüberdeckung
+     - Testfallermittlung
+       - Äquivalenzklassen (2 < n <= 5 führt zu Ergebnis x)
+       - Grenzwertüberprüfung (2, 3, 5, 6 für obiges Beispiel z.B.)
+       - Entscheidungstabellen / Ursache-Wirkungsgraphen
+       - Zustandsbasierter Test (Zustandsautomaten)
+       - Anwendungsfallbasierter Test (Use Cases prüfen)
+** SCRUM-Überblicksmodell
+
+** Projektplanung
+   Definition:
+     - begrenzt: zeitlich, finanziell, personell, Anforderungen
+     - eindeutige Ziele
+     - individuell: keine Routine
+     - hat einen oder mehrere Abnehmer
+     - verbindet Menschen, Hilfsmittel/Resourcen und Resultate/Produkte
+*** Aufgaben des Projektleiters
+*** Aufgabenpakete - Eigenschaften
+*** Fertigstellungsgrad
+*** Meilensteine
+*** Schätzverfahren
+*** Projektphasen - Aufgaben dabei (Projektleiter)
+*** Meeting
+**** Ablauf
+     1. Entscheiden wer einzuladen ist.
+     2. Agenda erstellen und mind. einen Tag vorher verteilen.
+     3. Pünktlich beginnen, nicht auf jemanden warten, nicht unterbrechen
+        wenn jemand eintrifft.
+     4. Protokol (währenddessen!) führen und sofort anschließend verteilen.
+        Um Konflikte zu vermeiden, verkünden was ins Protokoll aufgenommen wird.
+        "So haben wir das aber nicht besprochen."
+**** Action-Item-Protokolierung
+     Motivation: Echte Ergebnisse eindeutig festhalten
+     Fester Rahmen durch standardisierte Methode aus dem militärischen Bereich
+     Mögliche Punkte:
+       - Aufforderung("Action")
+         - Umfang ist immer begrenzt und verpflichtet den Verantwortliche zum handeln
+         - erfordert immer eine Zustimmung des Betroffenen
+         - Dauer und Kosten lassen sich abschätzen
+         - Eindeutiger Endtermin zur Lösung der Aufgabe
+       - Beschluss
+         - für alle verbindlich
+         - erfordert die Einigung aller Beteiligten
+         - (Kosten und Arbeitsumfang lassen sich nicht begrenzen oder sind gleich Null)
+       - Empfehlung
+         - ausgesprochen, wenn der Betroffene nicht anwesend ist oder wenn keine Einigung möglich
+         - darf einseitig ausgesprochen werden
+         - ist nicht verplichtend
+       - Feststellung
+         - gibt Tatbestände, Sachverhalte und persönliche Sichtweisen wieder
+         - nicht verpflichtend
+      Jedes Item nur als Konsensentscheidung.
+      Jedes Item bekommt fortlaufende Nummerierung.
+      Items die noch offen sind werden aus dem alten Protokol ins neue Protokol übertragen.
+
+** Softwareattribute?
+
+** Versionsverwaltung
+*** Version und Variante?
+
+** McCabe-Metrik?(zyklomatische Komplexität?)
+** Meldeklassen im Change-Management
+
+** Risikomanagement
+*** Häufige Risiken
+*** Aufgaben im Risiskomanagement
