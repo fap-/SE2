@@ -9,6 +9,8 @@
 *** Continuous Integration
 *** Tests
 **** Glas-Box-Tests
+     - PoC - Point of Control - Einfügen der Daten in die zu testende Funktion
+     - PoO - Point of Observation - Überprüfung des Outputs of Korrektheit 
      - PoC und PoO innen
        Direkter Eingriff in Code
        Testdaten aus Struktur
