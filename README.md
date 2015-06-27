@@ -5,7 +5,7 @@
 * [SE2.org] (se2.org)
 * [Agile und Scrum] (AgileUndScrum.md)
 
-### Terminolgy
+### Terminologie
 Um einheitliche Fragestellungen im Dokument feszuhalten, lassen sich folgende Kürzel verwenden:
 
 * ? - Unsicherheit
