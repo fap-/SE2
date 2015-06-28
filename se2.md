@@ -13,7 +13,7 @@
 <li><a href="#sec-1-1-5">1.1.5. Tests</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-2">1.2. SCRUM-Überblicksmodell</a></li>
+<li><a href="#sec-1-2">1.2. Agile und Scrum</a></li>
 <li><a href="#sec-1-3">1.3. Projektplanung</a>
 <ul>
 <li><a href="#sec-1-3-1">1.3.1. Aufgaben des Projektleiters</a></li>
@@ -92,7 +92,27 @@
         -   Zustandsbasierter Test (Zustandsautomaten)
         -   Anwendungsfallbasierter Test (Use Cases prüfen)
 
-## SCRUM-Überblicksmodell<a id="sec-1-2" name="sec-1-2"></a>
+## Agile und Scrum<a id="sec-1-2" name="sec-1-2"></a>
+Das bekannte Wasserfallmodel weist Probleme auf, da der Endnutzer erst am Ende der Entwicklung die Software nutzen 
+kann und dadurch Mängel dadurch zu spät aufweisen kann. Agile Vorgehensweisen möchten diese Problematik umgehen, 
+indem sie folgende Gewichtungen getroffen haben:
+
+### Vier Konzepte für Agile
+* Individuals and interactions over process and tools
+* Working software over comprehensive documentation                                                                                                                   
+* Customer collaboration over contract negotiation
+* Responding to change over following plan
+
+Vorallem der letzte Punkt ist im normalem Wasserfallmodell sehr schwer, wenn überhaut umsetzbar. 
+
+## Scrum
+Scrum kommt aus dem englischen und bedeutet Gedrängel. 
+
+Dies ist eine Auflistung von den [Projektrollen](https://de.wikipedia.org/wiki/Scrum#Rollen_innerhalb_von_Scrum) in Scrum: 
+* Product Owner - "Der Produktowner ist für den wirtschaftlichen Erfolg des Projektes verantwortlich."
+* Entwicklungstteam - "Jegliche Mitglieder in einem Projekt: Architekt, Tester, Implementierer, Qualitätssicherung, uvm."
+* Scrummaster - "Überprüft die Einhaltung der Scrumregeln, welche ebenfalls von diesem gesetzt werden."
+
 
 ## Projektplanung<a id="sec-1-3" name="sec-1-3"></a>
 
