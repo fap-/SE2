@@ -99,13 +99,13 @@ indem sie folgende Gewichtungen getroffen haben:
 
 ### Vier Konzepte für Agile
 * Individuals and interactions over process and tools
-* Working software over comprehensive documentation                                                                                                                   
+* Working software over comprehensive documentation
 * Customer collaboration over contract negotiation
 * Responding to change over following plan
 
 Vorallem der letzte Punkt ist im normalem Wasserfallmodell sehr schwer, wenn überhaut umsetzbar. 
 
-## Scrum
+### Scrum
 Scrum kommt aus dem englischen und bedeutet Gedrängel. 
 
 Dies ist eine Auflistung von den [Projektrollen](https://de.wikipedia.org/wiki/Scrum#Rollen_innerhalb_von_Scrum) in Scrum: 
