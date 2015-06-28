@@ -188,7 +188,7 @@ Es ist sinnvoll mehrere Schätzverfahren zu kombinieren:
             Änderungsnotwendigkeit der Datenbankstruktur
         -   Referenzdateien: liefern Informationen, read-only
 
-        [bild mit formel]
+            ![img](images/funktion_points_formel.png)
 
         -   Einflussfaktoren sehr unterschiedlich je nach Firma, FP werden in der Praxis selten eingesetzt
 
@@ -350,7 +350,7 @@ Es ist sinnvoll mehrere Schätzverfahren zu kombinieren:
     Jedes Item bekommt fortlaufende Nummerierung.
     Items die noch offen sind werden aus dem alten Protokol ins neue Protokol übertragen.
 
-    [PLX INSERT EXAMPLE]
+    ![img](images/action_item_example.png)
 
 ## Softwareattribute?<a id="sec-1-4" name="sec-1-4"></a>
 

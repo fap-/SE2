@@ -112,7 +112,9 @@
            DB-Design (Hilfsdateien nicht gezählt). Klassifikation nach Komplexität des Datenmodells,
            Änderungsnotwendigkeit der Datenbankstruktur
          - Referenzdateien: liefern Informationen, read-only
-         [bild mit formel]
+
+           [[file:images/funktion_points_formel.png]]
+
          - Einflussfaktoren sehr unterschiedlich je nach Firma, FP werden in der Praxis selten eingesetzt
 
 
@@ -240,7 +242,7 @@
       Jedes Item bekommt fortlaufende Nummerierung.
       Items die noch offen sind werden aus dem alten Protokol ins neue Protokol übertragen.
 
-      [PLX INSERT EXAMPLE]
+      [[file:images/action_item_example.png]]
 
 ** Softwareattribute?
 
