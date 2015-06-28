@@ -246,7 +246,8 @@ Es ist sinnvoll mehrere Schätzverfahren zu kombinieren:
 
             Arbeit in Arbeitspakete aufteilen, "divide and conquer"
 
-              ![img](images/projektstrukturplan_baumdarstellung.png)
+            ![img](images/projektstrukturplan_baumdarstellung.png)
+
             Aber: PSP wird zur Schätzung des Aufwands und zur Planung in Textform aufgenommen
             (nicht unmittelbar als grafischer Baum)
             Arbeitspaket muss klar abgrenzbar, eindeutig und messbar sein (Controlling-Element im Projekt)
