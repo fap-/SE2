@@ -20,7 +20,7 @@
 <li><a href="#sec-1-3-2">1.3.2. Aufgabenpakete - Eigenschaften</a></li>
 <li><a href="#sec-1-3-3">1.3.3. Fertigstellungsgrad</a></li>
 <li><a href="#sec-1-3-4">1.3.4. Meilensteine</a></li>
-<li><a href="#sec-1-3-5">1.3.5. Schätzverfahren</a></li>
+<li><a href="#sec-1-3-5">1.3.5. Schätzverfahren (Aufwandsschätzung)</a></li>
 <li><a href="#sec-1-3-6">1.3.6. Projektphasen - Aufgaben dabei (Projektleiter)</a></li>
 <li><a href="#sec-1-3-7">1.3.7. Meeting</a></li>
 </ul>
@@ -106,15 +106,166 @@ Definition:
 
 ### Aufgaben des Projektleiters<a id="sec-1-3-1" name="sec-1-3-1"></a>
 
+1.  Allgemein
+
+    -   Planen
+    -   Bewerten und kontrollieren
+    -   Kommunizieren
+        -   zwischen Management, Kunden, Marketing und Mitarbeitern
+        -   für Manegement repräsentiert er das Projekt
+        -   für den Kunden die Herstellerfirma
+        -   für Marketing die Technik
+        -   für Mitarbeiter die Leitung der Firma
+        -   unterschiedliche Erwartungen -> allen Seiten zuhören und Informationen weitergeben
+    -   Günstige Rahmenbedingungen schaffen und erhalten (Projekt/Mitarbeiter vor Störungen schützen)
+        z.B.: wankelmütige Kunden, unklare Ziele, Restrukturierung, Sparmaßnahmen, enge Büros,
+        andere Projektleiter stehlen Mitarbeiter, Meinungsverschiedenheiten im Team
+    -   Mitarbeiter führen und motivieren
+    -   Schwierigkeiten möglichst früh erkennen und bekämpfen (-> Risikomanagement)
+
+2.  Softskills
+
+    -   Soft Skills: soziale Kompetenz
+    -   Kommunikation: fasst Ergebnisse zusammen, stellt Fragen, ist geschätzter Gesprächspartner
+    -   Kooperation: bildet enge Kundenbeziehung, berät und unterstützt, trifft klare Entscheidungen,
+        lädt Kollegen zu Entscheidungen ein
+    -   Einfühlsvermögen: hört anderen zu, reflektiert eigenes und fremdes Verhalten,
+        kann sich gut in kulturelle Unterschiede einfühlen
+    -   Integrationsfähigkeit: entwickelt nachhaltige Lösungen in verfahrenen Situationen, geht Kompromisse ein
+    -   Teamfähigkeit: anpassungsfähig, fordert zur kollektiven Problemlösung auf,
+        respektiert die Meinung und Grenzen anderer; überträgt Verantwortung auf das Team
+    -   Motivation: motiviert das Team, Vorbild, setzt Ziele
+    -   Konfliktfähigkeeit: konstruktiv in schiwerigen Situationen, erkennt Störungen, sucht "Win/Win"
+    -   Kontaktfreudigkeit: handelt offen und transparent, geht auf anderen, pflegt stabiles Netzwerk
+
 ### Aufgabenpakete - Eigenschaften<a id="sec-1-3-2" name="sec-1-3-2"></a>
 
 ### Fertigstellungsgrad<a id="sec-1-3-3" name="sec-1-3-3"></a>
 
 ### Meilensteine<a id="sec-1-3-4" name="sec-1-3-4"></a>
 
-### Schätzverfahren<a id="sec-1-3-5" name="sec-1-3-5"></a>
+### Schätzverfahren (Aufwandsschätzung)<a id="sec-1-3-5" name="sec-1-3-5"></a>
+
+Es ist sinnvoll mehrere Schätzverfahren zu kombinieren:
+
+1.  Analogieschätzung
+
+    auf Basis vorhandener Daten/Projekte
+    Beispiel: vergleichbare Projekte brauchten 25% des Aufwands für Tests,
+    15% Implementierung usw.
+
+2.  Expertenschätzung
+
+    -   durch Erfahrung von Fachleuten
+    -   Schätzungsworkshop mit 3-4 Teilnehmern
+    -   Schätzung des Aufwands der Stückliste in Bearbeitungsstunden oder -tagen
+    -   Entweder alle Punkte schätzen oder Teile schätzen und dann geeignete Analogieschätzung
+    -   [Delphi-Methode](https://de.wikipedia.org/wiki/Delphi-Methode#Standard-Delphi-Methode)
+
+3.  Algorithmische Schätzung
+
+    Kosten werden aus Größen berechnet, die frühzeitig bekannt sind und
+    genauer als der Aufwand geschätzt werden.
+
+    -   Constructive Cost Model (CoCoMo I + II)
+        -   Berechnung des Aufwands und der Entwicklungsdauer aus der
+            geschätzten Programmgröße in DSI (delivered source instructions)
+        -   Basiert auf großer menge archivierter Projektdaten
+        -   Zahlenwerte eher zu hoch, Projektdaten veraltet
+        -   CoCoMo II als Verbesserung (nicht explizit behandelt)
+        -   R? Unvollständig/ungenau aber imho kommt CoCoMo nicht explizit dran.
+    -   Function Point
+        Bewertung nach Kriterien:
+        -   Eingaben: Klassifzierung nach Anzahl Datenelemente, Eingabeprüfung,
+            Ansprüche an Bedienerführung
+        -   Ausgaben: z.B. Bilschirm, Interface, gedruckte Berichte, Ausgaben auf Terminaldruckern.
+            Klassifikation nach Komplexität des Berichts (Zeilen, Spalten, Datenelemente, Gruppenwechsel,
+            Druckaufbereitung)
+        -   Abfragen: nur fest zu implementierende Online-Abfragen nach Komplexität.
+            Abfragen durch Endbenutzersprache werden nicht gezählt
+        -   Anwenderdateien: jeder von der Anwendung gepflegte Bestand auf Basis logischem
+            DB-Design (Hilfsdateien nicht gezählt). Klassifikation nach Komplexität des Datenmodells,
+            Änderungsnotwendigkeit der Datenbankstruktur
+        -   Referenzdateien: liefern Informationen, read-only
+
+        [bild mit formel]
+
+        -   Einflussfaktoren sehr unterschiedlich je nach Firma, FP werden in der Praxis selten eingesetzt
 
 ### Projektphasen - Aufgaben dabei (Projektleiter)<a id="sec-1-3-6" name="sec-1-3-6"></a>
+
+1.  Akquisition
+
+2.  Angebot
+
+3.  Initialisierung
+
+4.  Durchführung
+
+    1.  Projektplanung
+
+        1.  Erstellung des Projektstrukturplans (PSP):
+
+            Arbeit in Arbeitspakete aufteilen, "divide and conquer"
+
+              ![img](images/projektstrukturplan_baumdarstellung.png)
+            Aber: PSP wird zur Schätzung des Aufwands und zur Planung in Textform aufgenommen
+            (nicht unmittelbar als grafischer Baum)
+            Arbeitspaket muss klar abgrenzbar, eindeutig und messbar sein (Controlling-Element im Projekt)
+
+        2.  Aufwandsschätzung
+
+            -   Wie hoch ist der Aufwand?
+            -   Wie lange wird die Entwicklung dauern?
+            -   Wie viele Leute werden benötigt
+            -   Benötigt für:
+                -   Kalkulation und Angebotserstellung
+                -   Personalplanung
+                -   "make or buy"
+                -   Nachkalkulation
+
+            Abschätzung basiert bei Wasserfall auf dem Lastenheft, je klarer die Anforderungen bekannt
+            sind desto besser die Schätzung. Je früher die Schätzung desto mehr Unsicherheiten.
+            Immer unpräzise!
+            Es kann das komplette Projekt oder bestimmte Teile geschätzt/angeboten werden.
+
+        3.  Terminplanung
+
+            Nächster Schritt: zeitliche Anordnung, Einteilung des Projekts in Phasen,
+            Festlegung von Meilensteinen (Meilenstein markiert Ende von Phase, Kunde wird involviert)
+
+            1.  Balkendiagramm (Gantt-Chart)
+
+                -   Listung alle Aufgaben
+                -   Abschätzung der Dauer je Aufgabe (Zeit)
+                -   Festlegung von Start und Endtermin
+                -   Vorteile
+                    -   weit verbreitet, übersichtlich, einfach
+                    -   zeigt Parallelität
+                -   Nachteile
+                    -   hoher Änderungsaufwand
+                    -   Übersichtlichkeit nur bei grober Granularität
+                -   Phasen sollten weder zu lange noch zu kurz sein
+                -   Berechnung von kritischem Pfad (Pfad mit geringstem Zeitpuffer, vrgl. BWL2)
+                -   Unterscheidung interne und externe Meilensteine
+                -   Definition eines Meilenstein
+                    1.  Definition der Ergebnisse
+                    2.  geforderte Qualitätseigenschaften
+                    3.  Instanz, die entscheidet, ob der Meilenstein erreicht ist
+                    4.  Zeitpunkt für das Erreichen des Meilensteins
+
+        4.  Ressourcen/Einsatzmittel
+
+            Personal- und Sachmittel
+
+            -   Auslastung und Verfügbarkeit von Mitarbeitern tracken
+                -   Definition der allgemeinen Arbeitszeiten
+                -   Urlaubstage der Mitarbeiter
+                -   Krankheit
+                -   Feiertage
+                -   Betriebsversammlungen, -ausflüge, -feiern
+
+5.  Abschluss
 
 ### Meeting<a id="sec-1-3-7" name="sec-1-3-7"></a>
 
@@ -154,6 +305,8 @@ Definition:
     Jedes Item nur als Konsensentscheidung.
     Jedes Item bekommt fortlaufende Nummerierung.
     Items die noch offen sind werden aus dem alten Protokol ins neue Protokol übertragen.
+
+    [PLX INSERT EXAMPLE]
 
 ## Softwareattribute?<a id="sec-1-4" name="sec-1-4"></a>
 
