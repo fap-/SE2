@@ -116,11 +116,40 @@
          - Einflussfaktoren sehr unterschiedlich je nach Firma, FP werden in der Praxis selten eingesetzt
 
 
-*** Projektphasen - Aufgaben dabei (Projektleiter)
+*** Projektphasen - Aufgaben dabei (Projektleiter) - Non-Agile-Mode
 **** Akquisition
+***** Zusammenfassung
+     - Maßnahmen der Kundengewinnung
+     - nicht behandelt
 **** Angebot
+***** Zusammenfassung
+     - Abstimmung der Zielsetzung und des Lastenhefts(Anforderungen, Ausgrenzungen, Annahmen)
+     - Kostenschätzung
+     - Erstellung eines Angebots
+     - Unterteilung in: Start -> Workshops -> Konsolidierung -> Ende
+     - Angebotspräsentation
+***** Aufgaben des Projektleiters
+      - Termingerechte Erstellung des Angebots
+      - Steuerung / Kontrolle des Angebotsteams (Aufwandsschätzung und Angebotstext)
+      - Wirtschaftlichkeitsrechnung erstellen
+      - Juristische Prüfung veranlassen
+      - Projektplan grob
 **** Initialisierung
+***** Zusammenfassung
+     - Zusammenstellung des Teams
+     - Planung Aufgaben/Pakete, Ressourcen, Berichtswesen, Terminpläne/budget
+     - Unterbeauftragungen
+     - Kick-off Veranstaltung
+       - Gemeinsame Vision
+       - Kennenlernen
+       - Einvernehmen über Ziele (Quantifizieren, Grundlage für Abnahme)
+       - Projektplan zeigen
+       - Dauer: wenige Stunden bis 1 Tag
+     - Risikomanagement
 **** Durchführung
+     - Analyse, Entwurf, Implementierung, Test, Teillieferungen, ... (evtl. iterative inkrementell)
+     - Planung und Kontrolle
+     - Meetings mit Kunden und Team
 ***** Projektplanung
 ****** Erstellung des Projektstrukturplans (PSP):
         Arbeit in Arbeitspakete aufteilen, "divide and conquer"
@@ -173,6 +202,10 @@
          - Betriebsversammlungen, -ausflüge, -feiern
 
 **** Abschluss
+     - Finale Lieferung
+     - Abnahmetest durch den Kunden
+     - "Touch-Down" Workshop
+     - Ergebnisse intern festhalten
 *** Meeting
 **** Ablauf
      1. Entscheiden wer einzuladen ist.

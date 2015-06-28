@@ -21,7 +21,7 @@
 <li><a href="#sec-1-3-3">1.3.3. Fertigstellungsgrad</a></li>
 <li><a href="#sec-1-3-4">1.3.4. Meilensteine</a></li>
 <li><a href="#sec-1-3-5">1.3.5. Schätzverfahren (Aufwandsschätzung)</a></li>
-<li><a href="#sec-1-3-6">1.3.6. Projektphasen - Aufgaben dabei (Projektleiter)</a></li>
+<li><a href="#sec-1-3-6">1.3.6. Projektphasen - Aufgaben dabei (Projektleiter) - Non-Agile-Mode</a></li>
 <li><a href="#sec-1-3-7">1.3.7. Meeting</a></li>
 </ul>
 </li>
@@ -192,15 +192,53 @@ Es ist sinnvoll mehrere Schätzverfahren zu kombinieren:
 
         -   Einflussfaktoren sehr unterschiedlich je nach Firma, FP werden in der Praxis selten eingesetzt
 
-### Projektphasen - Aufgaben dabei (Projektleiter)<a id="sec-1-3-6" name="sec-1-3-6"></a>
+### Projektphasen - Aufgaben dabei (Projektleiter) - Non-Agile-Mode<a id="sec-1-3-6" name="sec-1-3-6"></a>
 
 1.  Akquisition
 
+    1.  Zusammenfassung
+
+        -   Maßnahmen der Kundengewinnung
+        -   nicht behandelt
+
 2.  Angebot
+
+    1.  Zusammenfassung
+
+        -   Abstimmung der Zielsetzung und des Lastenhefts(Anforderungen, Ausgrenzungen, Annahmen)
+        -   Kostenschätzung
+        -   Erstellung eines Angebots
+        -   Unterteilung in: Start -> Workshops -> Konsolidierung -> Ende
+        -   Angebotspräsentation
+
+    2.  Aufgaben des Projektleiters
+
+        -   Termingerechte Erstellung des Angebots
+        -   Steuerung / Kontrolle des Angebotsteams (Aufwandsschätzung und Angebotstext)
+        -   Wirtschaftlichkeitsrechnung erstellen
+        -   Juristische Prüfung veranlassen
+        -   Projektplan grob
 
 3.  Initialisierung
 
+    1.  Zusammenfassung
+
+        -   Zusammenstellung des Teams
+        -   Planung Aufgaben/Pakete, Ressourcen, Berichtswesen, Terminpläne/budget
+        -   Unterbeauftragungen
+        -   Kick-off Veranstaltung
+            -   Gemeinsame Vision
+            -   Kennenlernen
+            -   Einvernehmen über Ziele (Quantifizieren, Grundlage für Abnahme)
+            -   Projektplan zeigen
+            -   Dauer: wenige Stunden bis 1 Tag
+        -   Risikomanagement
+
 4.  Durchführung
+
+    -   Analyse, Entwurf, Implementierung, Test, Teillieferungen, &#x2026; (evtl. iterative inkrementell)
+    -   Planung und Kontrolle
+    -   Meetings mit Kunden und Team
 
     1.  Projektplanung
 
@@ -266,6 +304,11 @@ Es ist sinnvoll mehrere Schätzverfahren zu kombinieren:
                 -   Betriebsversammlungen, -ausflüge, -feiern
 
 5.  Abschluss
+
+    -   Finale Lieferung
+    -   Abnahmetest durch den Kunden
+    -   "Touch-Down" Workshop
+    -   Ergebnisse intern festhalten
 
 ### Meeting<a id="sec-1-3-7" name="sec-1-3-7"></a>
 
