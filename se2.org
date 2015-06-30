@@ -254,4 +254,15 @@
 
 ** Risikomanagement
 *** Häufige Risiken
+     1. Personalprobleme
+     2. Unrealistische Pläne und Budgets
+     3. Entwickeln der falschen Funktionen und Eigenschaften
+     4. Entwickeln der falschen Benutzungsschnittstelle
+     5. „Goldverzierungen“
+     6. Ständiger Wechsel der Anforderungen
+     7. Versagen externer Komponenten
+     8. Versagen externer Aufträge
+     9. Zu geringe Leistung
+     10. Fehleinschätzung des Standes der Technik
+
 *** Aufgaben im Risiskomanagement
